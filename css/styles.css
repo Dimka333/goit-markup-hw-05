@@ -15,6 +15,7 @@
   --main-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
 }
 img {
   display: block;
@@ -77,6 +78,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
+  transition: var(--transition-duration) var(--timing-function);
 }
 
 .current::after {
@@ -89,7 +91,7 @@ body {
   background-color: var(--main-focus-color);
   position: absolute;
   border-radius: 2px;
-  transition: opacity 250ms var(--timing-function);
+  transition: var(--transition-duration) var(--timing-function);
   margin-bottom: 0;
 }
 
@@ -127,6 +129,9 @@ body {
 }
 .logo-link {
   margin-right: 93px;
+}
+.address-link {
+  transition: var(--transition-duration) var(--timing-function);
 }
 
 .address-header {
@@ -385,6 +390,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: var(--transition-duration) var(--timing-function);
 }
 
 .team-social-link-icon {
@@ -436,6 +442,7 @@ body {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: var(--transition-duration) var(--timing-function);
 }
 .clients-icon {
   fill: #afb1b8;
@@ -524,6 +531,7 @@ body {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: var(--transition-duration) var(--timing-function);
 }
 .footer-social-link:hover {
   background-color: var(--main-focus-color);
@@ -552,6 +560,7 @@ body {
   border: none;
   background-color: #f5f4fa;
   cursor: pointer;
+  transition: var(--transition-duration) var(--timing-function);
 }
 .portfolio-list-btn:hover,
 .portfolio-list-btn:focus {
@@ -610,6 +619,7 @@ body {
 }
 .portfolio-list-link {
   display: block;
+  transition: var(--transition-duration) var(--timing-function);
 }
 
 .portfolio-list-link:hover,
