@@ -54,7 +54,7 @@
           </a>
 
           <a class="address-link link" href="tel:"
-            ><svg class="smartphone" widht="10" height="16">
+            ><svg class="smartphone" widht="10" height="16" class="footer-icon">
               <use href="./img/symbol-defs.svg#icon-smartphone"></use>
             </svg>
             +380961111111</a
@@ -69,7 +69,9 @@
       <section class="hero">
         <div class="container-hero container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-title-btn" type="button">Заказать услугу</button>
+          <button class="hero-title-btn" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -474,5 +476,16 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="close-btn">
+          <svg class="close-modal-icon">
+            <use href="./img/symbol-defs.svg#icon-close-modal-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/moda.js"></script>
   </body>
 </html>
