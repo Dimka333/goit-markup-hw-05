@@ -437,7 +437,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: var(--transition-duration) var(--timing-function);
+  transition: background-color var(--transition-duration) var(--timing-function);
 }
 
 .team-social-link-icon {
@@ -490,7 +490,7 @@ body {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: fill var(--transition-duration) var(--timing-function);
+  transition: border-color var(--transition-duration) var(--timing-function);
 }
 .clients-icon {
   fill: #afb1b8;
@@ -593,7 +593,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-  transition: var(--transition-duration) var(--timing-function);
+  transition: fill var(--transition-duration) var(--timing-function);
 }
 
 /* ======END FOOTER====== */
@@ -615,7 +615,8 @@ body {
   background-color: #f5f4fa;
   cursor: pointer;
   transition: color var(--transition-duration) var(--timing-function),
-    background-color var(--transition-duration) var(--timing-function);
+    background-color var(--transition-duration) var(--timing-function),
+    box-shadow var(--transition-duration) var(--timing-function);
 }
 .portfolio-list-btn:hover,
 .portfolio-list-btn:focus {
