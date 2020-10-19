@@ -15,7 +15,7 @@
   --main-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-duration: 650ms;
+  --transition-duration: 250ms;
 }
 img {
   display: block;
